@@ -8,14 +8,14 @@ AOS.init({
     "use strict";
 
     // Initialize Stellar.js for parallax effects
-    // $(window).stellar({
-    //     responsive: true,
-    //     parallaxBackgrounds: true,
-    //     parallaxElements: true,
-    //     horizontalScrolling: false,
-    //     hideDistantElements: false,
-    //     scrollProperty: 'scroll'
-    // });
+    $(window).stellar({
+        responsive: true,
+        parallaxBackgrounds: true,
+        parallaxElements: true,
+        horizontalScrolling: false,
+        hideDistantElements: false,
+        scrollProperty: 'scroll'
+    });
 
     // Function to set full height for elements with class .js-fullheight
     var fullHeight = function() {
