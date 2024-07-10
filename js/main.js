@@ -229,3 +229,7 @@ AOS.init({
     });
 
 })(jQuery);
+
+document.addEventListener('touchmove', function(event) {
+    // Allow default scrolling behavior
+  }, { passive: true });
