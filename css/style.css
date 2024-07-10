@@ -9684,13 +9684,15 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-.hoever{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 2;
-}
-
-.hoever:hover{
-  z-index: -1;
+@media (max-width: 600px) {
+  .hoever{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .hoever:hover{
+    z-index: -1;
+  }
 }
